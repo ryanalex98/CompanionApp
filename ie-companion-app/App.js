@@ -12,7 +12,7 @@ function HomeScreen() {
   );
 }
 
-function SettingsScreen() {
+function NotificationsScreen() {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text>Settings!</Text>
@@ -33,9 +33,9 @@ export default function App() {
           options={{ tabBarIcon: makeIconRender("home") }}
         />
         <Tab.Screen
-          name="Settings"
-          component={SettingsScreen}
-          options={{ tabBarIcon: makeIconRender("cog") }}
+          name="Notifications"
+          component={NotificationsScreen}
+          options={{ tabBarIcon: makeIconRender("bell") }}
         />
       </Tab.Navigator>
     </NavigationContainer>
