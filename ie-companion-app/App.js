@@ -2,10 +2,11 @@ import { Text, View } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { styles } from "./styles.js"
 
 function HomeScreen() {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+    <View style={styles.homeScreen}>
       <Text>Test1!</Text>
     </View>
   );
@@ -22,7 +23,6 @@ function SettingsScreen() {
 const Tab = createBottomTabNavigator();
 
 export default function App() {
-
 
   return (
     <NavigationContainer>
