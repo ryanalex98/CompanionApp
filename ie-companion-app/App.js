@@ -8,6 +8,10 @@ function HomeScreen() {
   return (
     <View style={styles.homeScreen}>
       <Text>Test1!</Text>
+      <View>
+        <Text>Login</Text>
+        <Text>Sample</Text>
+      </View>
     </View>
   );
 }
