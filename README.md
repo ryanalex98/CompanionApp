@@ -82,3 +82,25 @@ TBD
 ### Icons
 
 Sample icons available here: https://static.enapter.com/rn/icons/material-community.html
+
+# Future Development:
+
+- Add session token logic (device)
+  - store natively on device
+  - Problems with Expo and react-native-encrypted-storage: https://github.com/emeraldsanto/react-native-encrypted-storage/issues/34
+- Incorporate "STATEFULNESS"
+  - Watch this guy's video
+  - session token logic is important here
+- Play around with firebase
+  - Add and erase native device id
+  - Read/unread notifications
+  - Query unread for badge alert
+- Contacts
+  - Contact card - natively add to contacts
+- Documents
+  - native document image/pdf query and preview/display
+- Monthly Report
+  - Expand/collapse text fields when active
+  - cache until SUCCESSFUL submission
+- Login Screen
+  - Natively store credentials with biometrics
